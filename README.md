@@ -26,7 +26,7 @@ The architecture will start as a modular monorepo with independently runnable se
 
 ## Current status
 
-The workspace is at the planning and repository-foundation stage. See [docs/ROADMAP.md](docs/ROADMAP.md) for the staged implementation plan and [docs/ENGINEERING_RULES.md](docs/ENGINEERING_RULES.md) for the standards that keep the project from becoming generic or vibe-coded.
+The project now has its first runnable backend foundation. See [docs/ROADMAP.md](docs/ROADMAP.md) for the staged implementation plan, [docs/SESSION_03.md](docs/SESSION_03.md) for the current session evidence, and [docs/ENGINEERING_RULES.md](docs/ENGINEERING_RULES.md) for the standards that keep the project from becoming generic or vibe-coded.
 
 ## Development principle
 
