@@ -10,6 +10,17 @@ Each session is intentionally bounded. A session should produce a reviewable eng
 4. A reproducible command or walkthrough.
 5. A commit with a focused message.
 
+These sessions are intentionally sized for one focused OmniRush work session. A session may contain several tool calls, but it should have one coherent engineering outcome. We will not combine unrelated features just to make a larger-looking commit.
+
+For every session we will record:
+
+- Goal and user-visible outcome
+- Files or modules expected to change
+- Acceptance criteria
+- Tests and verification commands
+- Design decisions and trade-offs
+- What remains explicitly out of scope
+
 ## Phase 0 — Product and engineering foundation
 
 ### Session 01: Repository foundation
@@ -41,6 +52,11 @@ Evidence:
 
 - Example valid, duplicate, stale, invalid, and out-of-order events
 - Contract tests for the event schema
+
+Completed design artifacts:
+
+- [Architecture](ARCHITECTURE.md)
+- [Event contracts](EVENT_CONTRACTS.md)
 
 ## Phase 1 — First working vertical slice
 
